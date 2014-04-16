@@ -1,1 +1,11 @@
 /* My Styles */
+header {
+	position: relative;
+}
+
+header h1 {
+	bottom:0;
+	font-size: 2em;
+	left:48px;
+	position: absolute;
+}

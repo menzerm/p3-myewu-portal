@@ -9,3 +9,21 @@ header h1 {
 	left:48px;
 	position: absolute;
 }
+/*Column 1*/
+.tabs-content {
+	border:1px solid #000;
+	border-top:none;
+	padding: 10px;
+}
+dd {
+	border:1px solid #000;
+}
+/*Column 2*/
+.panel.callout {
+	background: steelblue;
+}
+
+/*Modal*/
+.reveal-modal-bg {
+	background: steelblue;
+}

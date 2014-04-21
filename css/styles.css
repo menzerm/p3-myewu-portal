@@ -27,3 +27,8 @@ dd {
 .reveal-modal-bg {
 	background: steelblue;
 }
+
+/*Carousel*/
+.orbit-prv {
+	width: 72px;
+}

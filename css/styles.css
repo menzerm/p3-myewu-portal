@@ -51,7 +51,7 @@ ul {
 	border-radius: 0 0 10px 10px;
 	padding: 10px;
 	background: steelblue;
-	padding: 0 0 13.7rem 0;
+	padding: 0 0 14.3rem 0;
 }
 
 .panel.callout a:not(.button){
@@ -72,6 +72,9 @@ ul {
 h1, h2, h3, h4, h5, h6{
 	color: #172E60;
 
+}
+p{
+	margin:1rem;
 }
 
 /*Modal*/

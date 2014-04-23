@@ -9,16 +9,34 @@ header h1 {
 	left:48px;
 	position: absolute;
 }
-/*Column 1*/
+
+ul {
+	list-style: none;
+}
+/*top bar*/
+.contain-to-grid, .top-bar,.top-bar-section li:not(.has-form) a:not(.button) {
+	background: #1B6017;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
+	background: steelblue;
+}
+/*Column 2*/
 .tabs-content {
 	border:1px solid #000;
 	border-top:none;
 	padding: 10px;
 }
+.tabs-content > .content{
+	padding: 0 0 142px 0;
+}
 dd {
 	border:1px solid #000;
 }
-/*Column 2*/
+.panel.callout a:not(.button){
+	color:#000;
+}
+/*Column 1*/
 .panel.callout {
 	background: steelblue;
 }
@@ -31,4 +49,8 @@ dd {
 /*Carousel*/
 .orbit-prv {
 	width: 72px;
+}
+
+.orbit-container .orbit-slides-container li .orbit-caption {
+	background: #1B6017;
 }

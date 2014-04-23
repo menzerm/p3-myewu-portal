@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <title>My Website</title>
+    <title>MyEWU Portal</title>
     
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/styles.css" />    
@@ -15,6 +15,31 @@
   
   <body>
 
+  <!-- Nav -->
+  <div class="contain-to-grid">
+   <nav class="top-bar sticky" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="#">MyEWU Portal</a></h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    </ul>
+
+    <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="has-dropdown">
+        <a href="#">Menu</a>
+        <ul class="dropdown">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Sign Out</a></li>
+        </ul>
+      </li>
+    </ul>
+    </section>
+   </nav>
+  </div>
     <!-- Masthead -->
     <header class="row">
       <div class="large-12 columns">
@@ -25,11 +50,25 @@
 
     <!-- Band of Content -->
     <article class="row">
-      
       <!-- Column 1 -->
       <div class="large-6 columns">
-        <h2>Student Info.</h2>
-        
+        <div class="panel callout">
+          <h3>Assignments Due Today</h3>
+          <ul class="side-nav">
+            <li><a href="#">Assignment 1</a></li>
+            <li><a href="#">Assignment 2</a></li>
+            <li><a href="#">Assignment 3</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Discussions Due Today</h3>
+          <ul class="side-nav">
+            <li><a href="#">Discussion 1</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Column 2 -->
+      <div class="large-6 columns">
         <!-- Student Info Tabs -->
         <dl class="tabs" data-tab>
           <dd class="active"><a href="#email">Email</a></dd>
@@ -49,23 +88,6 @@
           </div>
         </div>
       </div>
-      
-      <!-- Column 2 -->
-      <div class="large-6 columns">
-        <h2>Column 2</h2>
-
-        <div class="panel callout">
-          <h5>Assignments Due Today</h5>
-          <ul class="side-nav">
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-          </ul>
-        </div>
-
-      </div>
-
     </article> 
     
     <section class="row">
@@ -73,21 +95,21 @@
         <!-- Carousel -->
         <ul class="example-orbit" data-orbit>
           <li>
-            <img src="http://placehold.it/960x300" alt="slide 1" />
+            <img src="img/Spring14_Slide.jpg" alt="slide 1" />
             <div class="orbit-caption">
-              Caption One.
+              Announcement One.
             </div>
           </li>
           <li class="active">
-            <img src="http://placehold.it/960x300" alt="slide 2" />
+            <img src="img/Spring14_Slide2.jpg" alt="slide 2" />
             <div class="orbit-caption">
-              Caption Two.
+              Announcement Two.
             </div>
           </li>
           <li>
-            <img src="http://placehold.it/960x300"alt="slide 3" />
+            <img src="img/NCUR15_Slide.jpg"alt="slide 3" />
             <div class="orbit-caption">
-              Caption Three.
+              Announcement Three.
             </div>
           </li>
         </ul>
@@ -96,24 +118,17 @@
 
     <!-- Footer -->
     <footer class="row">
-      
-      <div class="columns large-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, sunt quaerat a enim est accusantium facilis nisi iusto non blanditiis aperiam vel eum. Non, sunt sequi nulla eaque praesentium consectetur?</p>   
-      </div>
-
-      <div class="columns large-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, sunt quaerat a enim est accusantium facilis nisi iusto non blanditiis aperiam vel eum. Non, sunt sequi nulla eaque praesentium consectetur?</p>   
-      </div>
-
-      <div class="columns large-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, sunt quaerat a enim est accusantium facilis nisi iusto non blanditiis aperiam vel eum. Non, sunt sequi nulla eaque praesentium consectetur?</p>   
-      </div>
 
     </footer>
 
     <!-- Modal -->
     <div id="myModal" class="reveal-modal" data-reveal>
-      <p>My Modal Content</p>
+      <h1>This is late!</h1>
+        <ul>
+          <li><a href="#">Assignment</a></li>
+          <li><a href="#">Book</a></li>
+          <li><a href="#">Payment</a></li>
+        </ul>
       <a class="close-reveal-modal">&#215;</a>
     </div>
 

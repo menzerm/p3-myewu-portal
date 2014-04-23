@@ -96,10 +96,6 @@ a:hover{
 .orbit-container,.orbit-slide-number, .orbit-timer {
 	padding-top:1.25rem;
 }
-.orbit-prv {
-	width: 72px;
-}
-
 .orbit-container .orbit-slides-container li .orbit-caption {
 	background: #1B6017;
 	width: 960px;

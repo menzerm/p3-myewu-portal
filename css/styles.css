@@ -1,6 +1,7 @@
 /* My Styles */
 body {
 	font-family: 'Roboto', sans-serif;
+	background: url('../img/green_cup.png');
 }
 header {
 	position: relative;

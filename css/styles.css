@@ -10,8 +10,10 @@ header {
 header h1 {
 	bottom:0;
 	font-size: 2em;
-	left:48px;
+	left:313px;
+	bottom: 7px;
 	position: absolute;
+	color: steelblue;
 }
 
 ul {
@@ -26,16 +28,34 @@ ul {
 	background: steelblue;
 }
 /*Column 2*/
+.tabs{
+	margin-top:1.25rem;
+	margin-bottom:1.25rem;
+}
+.tabs dd.active a{
+	background: steelblue;
+	color: #172E60;
+}
+.tabs dd > a {
+	background: #172E60;
+	color: steelblue;
+}
+.tabs dd > a:hover{
+	background: steelblue;
+	color: #172E60;
+}
 .tabs-content {
 	border:1px solid #000;
 	border-top:none;
 	padding: 10px;
+	background: steelblue;
 }
 .tabs-content > .content{
-	padding: 0 0 142px 0;
+	padding: 0 0 224px 0;
 }
 dd {
 	border:1px solid #000;
+
 }
 .panel.callout a:not(.button){
 	color:#000;
@@ -43,6 +63,18 @@ dd {
 /*Column 1*/
 .panel.callout {
 	background: steelblue;
+	margin-top:1.25rem;
+	margin-bottom:1.25rem;
+}
+.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p{
+	color: #172E60;
+}
+.panel.callout a:not(.button):hover {
+	color: #172E60;
+}
+h1, h2, h3, h4, h5, h6{
+	color: #172E60;
+
 }
 
 /*Modal*/

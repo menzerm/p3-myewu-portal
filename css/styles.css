@@ -89,4 +89,5 @@ h1, h2, h3, h4, h5, h6{
 
 .orbit-container .orbit-slides-container li .orbit-caption {
 	background: #1B6017;
+	width: 960px;
 }

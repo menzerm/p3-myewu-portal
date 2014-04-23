@@ -28,6 +28,7 @@ ul {
 .top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
 	background: steelblue;
 }
+
 /*Column 2*/
 .tabs dd.active a{
 	background: steelblue;
@@ -80,6 +81,12 @@ h1, h2, h3, h4, h5, h6{
 dialog, .reveal-modal{
 	border:1px solid #000;
 	border-radius:10px;
+}
+a{
+	color: steelblue;
+}
+a:hover{
+	color:#172E60;
 }
 
 /*Carousel*/
